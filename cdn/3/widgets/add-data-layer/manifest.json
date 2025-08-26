@@ -1,0 +1,27 @@
+{
+  "name": "add-data-layer",
+  "label": "Add Data Layer",
+  "type": "widget",
+  "version": "1.14.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "exbVersion": "1.14.0",
+  "author": "Kathleen Ganbatte",
+  "description": "Upload a spatial file and select a colour for your layer",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "appName": {
+      "type": "string",
+      "defaultValue": ""
+    }
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
