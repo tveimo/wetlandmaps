@@ -1,0 +1,25 @@
+{
+    "name": "report-request-popup",
+    "label": "Request Report Popup",
+    "type": "widget",
+    "version": "1.14.0",
+    "dependency": ["jimu-arcgis"],
+    "exbVersion": "1.14.0",
+    "author": "Kathleen Ganbatte",
+    "description": "Maps online report request form using selected feature popup",
+    "copyright": "",
+    "license": "",
+    "properties": {
+      "appName": {
+        "type": "string",
+        "defaultValue": ""
+      }
+    },
+    "translatedLocales": [
+      "en"
+    ],
+    "defaultSize": {
+      "width": 800,
+      "height": 500
+    }
+  }

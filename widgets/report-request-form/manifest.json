@@ -1,0 +1,25 @@
+{
+    "name": "report-request-form",
+    "label": "Request a Report",
+    "type": "widget",
+    "version": "1.14.0",
+    "dependency": ["jimu-arcgis"],
+    "exbVersion": "1.14.0",
+    "author": "Kathleen Ganbatte",
+    "description": "Maps online report request form using drawn features",
+    "copyright": "",
+    "license": "",
+    "properties": {
+      "appName": {
+        "type": "string",
+        "defaultValue": ""
+      }
+    },
+    "translatedLocales": [
+      "en"
+    ],
+    "defaultSize": {
+      "width": 800,
+      "height": 500
+    }
+  }

@@ -1,0 +1,25 @@
+{
+  "created": 1750204929118,
+  "description": "",
+  "id": "1",
+  "modified": 1756175607891,
+  "owner": "wetlands_qgsp",
+  "tags": [],
+  "thumbnail": null,
+  "title": "WetlandMaps C",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "Ready To Use",
+    "JavaScript",
+    "status: Published",
+    "version:1.18.0",
+    "publishVersion:1.18.0"
+  ],
+  "portalUrl": "https://qgsp.maps.arcgis.com",
+  "username": "wetlands_qgsp",
+  "name": "WetlandMaps C",
+  "isLocalApp": true,
+  "url": null
+}

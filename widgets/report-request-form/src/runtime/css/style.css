@@ -1,0 +1,66 @@
+/* style.css with naming conventions as per ESRI's documentation */
+.widget-report-request-form-warning {
+    color: red;
+  }
+
+.widget-report-request-form-message {
+  color: green;
+}
+
+.widget-report-request-input-invalid {
+  border: 1px solid rgb(221, 50, 101);
+  border-radius: 4px;
+}
+
+.widget-report-request-text-invalid {
+  color: red;
+}
+
+.widget-report-request-padding {
+  padding: 10px;
+}
+
+.widget-report-request-padding-top {
+  padding-top: 10px;
+}
+
+.widget-report-request-padding-top-privacy {
+  padding-top: 30px;
+}
+
+.widget-report-request-padding-bottom {
+  padding-bottom: 15px;
+}
+
+.widget-report-request-padding-right {
+  padding-right: 10px;
+}
+
+.widget-report-request-padding-left {
+  padding-left: 10px;
+}
+
+.widget-report-request-select {
+  width: 175px;
+}
+
+.widget-report-request-sketch-tools { 
+  align-items: center; 
+  justify-content: center;
+  background: white;
+  padding: 5px; 
+  border-radius: 6px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
+.widget-report-request-widget-container {
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+@media (max-height: 800px) {
+  .widget-report-request-widget-container {
+      max-height: 100%;
+  }
+}
+

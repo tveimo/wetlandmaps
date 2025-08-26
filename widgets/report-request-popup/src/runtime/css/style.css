@@ -1,0 +1,90 @@
+/* style.css with naming conventions as per ESRI's documentation */
+
+.popup-report-request-form-loading-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--white);
+  z-index: 2;
+}
+.popup-report-request-form-loading-content {
+  position: absolute;
+  top: 0;
+  bottom: 60px;
+  right: 0;
+  left: 0;
+}
+
+.popup-report-request-form-warning {
+    color: red;
+  }
+
+.popup-report-request-form-message {
+  color: green;
+}
+
+.popup-report-request-input-invalid {
+  border: 1px solid rgb(221, 50, 101);
+  border-radius: 4px;
+}
+
+.popup-report-request-text-invalid {
+  color: red;
+}
+
+.popup-report-request-padding {
+  padding: 10px;
+}
+
+.popup-report-request-padding-top {
+  padding-top: 10px;
+}
+
+.popup-report-request-padding-top-privacy {
+  padding-top: 30px;
+}
+
+.popup-report-request-padding-bottom {
+  padding-bottom: 15px;
+}
+
+.popup-report-request-padding-right {
+  padding-right: 10px;
+}
+
+.popup-report-request-padding-left {
+  padding-left: 10px;
+}
+
+.popup-report-request-select {
+  width: 175px;
+}
+
+.radio-group-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.radio-option {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio-option img {
+  margin-bottom: 8px;
+}
+
+.popup-report-request-widget-container {
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+@media (max-height: 800px) {
+  .popup-report-request-widget-container {
+      max-height: 100%;
+  }
+}
+
