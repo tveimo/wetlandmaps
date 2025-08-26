@@ -20,7 +20,7 @@ jobs:
       - name: Unzip Experience Builder
         run: unzip -q exb.zip -d exb
       - name: Copy Custom Widgets
-        run: cp -r widgets/* exb/ArcGISExperienceBuilder/client/custom-widgets/widgets
+        run: cp -r widgets/* exb/ArcGISExperienceBuilder/client/your-extensions/widgets
 #      - name: Copy Custom Themes
 #        run: cp -r themes/* exb/ArcGISExperienceBuilder/client/custom-widgets/themes
       - name: Create App directory
