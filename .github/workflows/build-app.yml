@@ -41,7 +41,7 @@ jobs:
         run: npm run build:prod
         working-directory: exb/ArcGISExperienceBuilder/client
       - name: Run download script
-        run: node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')"
+        run: node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip', 'dblrlRfhYRSJkV7r')"
         working-directory: exb/ArcGISExperienceBuilder
         env:
           NODE_ENV: production
