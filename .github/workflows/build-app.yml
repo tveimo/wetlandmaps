@@ -55,10 +55,10 @@ jobs:
         working-directory: exb/ArcGISExperienceBuilder
       - name: Remove closing body and html tag
         uses: jacobtomlinson/gha-find-replace@v3
-          with:
-            find: "</body></html>"
-            replace: ""
-            regex: false
+        with:
+          find: "</body></html>"
+          replace: ""
+          regex: false
       - name: Add custom JS to index.html
         run: cat custom.html >> exb/ArcGISExperienceBuilder/app/index.html
       # - name: Generate screeenshot (optional)
