@@ -1,0 +1,1 @@
+System.register([],(function(i){return{execute:function(){i({_widgetLabel:"Kaardikihid",goto:"Suumi",information:"Detailid",showLabels:"Kuva sildid",hideLabels:"Peida sildid",emptyListTip:"Praegu pole kuvatavaid \xfcksusi",enablePopup:"Luba h\xfcpikaknad",disablePopup:"Keela h\xfcpikaknad",tables:"Tabelid",visibilityRange:"N\xe4htavusvahemik"})}}}));

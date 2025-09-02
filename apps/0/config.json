@@ -28,12 +28,12 @@
           "type": "WIDGET",
           "widgetId": "widget_29",
           "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "5.6%",
+            "width": "100.0%",
+            "height": "94.4%"
           },
           "setting": {
             "autoProps": {
@@ -638,22 +638,27 @@
           "type": "WIDGET",
           "widgetId": "widget_5",
           "bbox": {
-            "right": "-0.0%",
-            "bottom": "0.1%",
+            "right": "0.0%",
+            "bottom": "60.3%",
             "width": "6.8%",
-            "height": "21.2%",
-            "left": "1193px",
-            "top": "630px"
+            "height": "39.7%",
+            "left": "1191px",
+            "top": "0px"
           },
           "setting": {
             "autoProps": {
               "right": false,
               "left": true,
-              "top": true,
-              "bottom": false
+              "top": false,
+              "bottom": true,
+              "height": "AUTO",
+              "width": "AUTO"
             },
             "vCenter": false,
-            "hCenter": false
+            "hCenter": false,
+            "lockParent": false,
+            "heightMode": "fixed",
+            "aspectRatio": 3.44
           }
         }
       },
@@ -677,11 +682,32 @@
           "widgetId": "widget_27",
           "bbox": {},
           "setting": {}
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_39",
+          "bbox": {},
+          "setting": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_40",
+          "bbox": {},
+          "setting": {}
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_41",
+          "bbox": {},
+          "setting": {}
         }
       },
       "order": [
-        "0",
-        "1"
+        "3",
+        "2",
+        "4",
+        "1",
+        "0"
       ],
       "label": "Controller layout"
     },
@@ -700,7 +726,7 @@
             "top": "0%",
             "bottom": "0%",
             "width": "100%",
-            "height": "100%"
+            "height": "100.0000%"
           },
           "setting": {
             "autoProps": {
@@ -868,7 +894,7 @@
           "vertical": true,
           "size": {},
           "arrangement": "floating",
-          "alignment": "center"
+          "alignment": "start"
         },
         "appearance": {
           "space": 10,
@@ -921,10 +947,13 @@
           "canSearch": false,
           "canNavigation": true,
           "canLocate": true,
-          "canLayers": true,
-          "canBaseMap": true,
+          "canLayers": false,
+          "canBaseMap": false,
           "canCompass": false,
-          "canMeasure": true
+          "canMeasure": false,
+          "canExtentNavigate": false,
+          "canSelect": false,
+          "canSelectState": false
         },
         "isUseCustomMapState": false,
         "initialMapState": null,
@@ -1017,6 +1046,11 @@
         },
         "relatedData": {
           "enabled": true
+        },
+        "viewInTable": {
+          "config": {
+            "isViewInSameSheet": true
+          }
         }
       },
       "showAllDataCount": true,
@@ -1904,6 +1938,47 @@
       "outputDataSources": [
         "widget_38_output"
       ]
+    },
+    "widget_39": {
+      "uri": "widgets/arcgis/basemap-gallery/",
+      "version": "1.18.0",
+      "label": "Basemap Gallery",
+      "config": {},
+      "id": "widget_39",
+      "useMapWidgetIds": [
+        "widget_6"
+      ]
+    },
+    "widget_40": {
+      "uri": "widgets/map-layers-custom/",
+      "version": "1.17.0",
+      "label": "Map Layers",
+      "config": {
+        "useMapWidget": true,
+        "useTickBoxes": true,
+        "searchLayers": true,
+        "goto": false
+      },
+      "id": "widget_40",
+      "useMapWidgetIds": [
+        "widget_6"
+      ]
+    },
+    "widget_41": {
+      "uri": "widgets/arcgis/measurement/",
+      "version": "1.18.0",
+      "label": "Measurement",
+      "config": {
+        "enableDistance": true,
+        "defaultDistanceUnit": "metric",
+        "enableArea": true,
+        "defaultAreaUnit": "metric",
+        "arrangement": "CLASSIC"
+      },
+      "id": "widget_41",
+      "useMapWidgetIds": [
+        "widget_6"
+      ]
     }
   },
   "exbVersion": "1.18.0",
@@ -2723,7 +2798,7 @@
       "home": []
     }
   ],
-  "timestamp": 1756159981160,
+  "timestamp": 1756787202649,
   "header": {
     "layout": {
       "LARGE": "layout_15"
@@ -2797,5 +2872,5 @@
       "LARGE": 75
     }
   },
-  "publishTimestamp": 1756175607886
+  "publishTimestamp": 1756787507093
 }
