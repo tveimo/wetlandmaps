@@ -118,19 +118,11 @@
 		"esri/": "https://API_URL/esri/"
 	}
 }</script><script src="./jimu-core/init.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4189358-1"></script>
 <script>
-  // add event handlers to layer list so that we can trigger visibility of parent layers
-  // when a sub-layer's visibility changes
-  function registerLayerListListeners() {
-    const layerlist = document.querySelectorAll('calcite-list-item');
-    console.log("layer list:", layerlist);
-    layerlist.forEach(item => {
-      item.addEventListener('calciteListItemToggle', function(event) {
-        console.log("toggle sub-layer? ", event);
-      })
-    })
-  }
-
-  registerLayerListListeners();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-4189358-1');
 </script>
 

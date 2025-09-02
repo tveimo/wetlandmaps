@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Layer mappa",goto:"Zoom a",information:"Dettagli",showLabels:"Mostra etichette",hideLabels:"Nascondi etichette",emptyListTip:"Nessun elemento da visualizzare",enablePopup:"Abilita popup",disablePopup:"Disabilita popup",tables:"Tabelle",visibilityRange:"Campo di visibilit\xe0"})}}}));
